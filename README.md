@@ -17,7 +17,7 @@ This project is a real-time alert system that delivers NBA game day score notifi
 ---
 
 
-![Project Architecture](er.png)
+![Project Architecture](./img/project%20arch.png)
 
 ---
 
@@ -56,7 +56,7 @@ nba_game_day_alerting_system/
 5. Click Create Topic.
 
 
-![SNS Topic](er.png)
+![SNS Topic](./img/sns_topic.png)
 
 ---
 
@@ -79,11 +79,11 @@ nba_game_day_alerting_system/
 6. For SMS, the subscription will be immediately active after creation.
 
 
-![SNS subscription](er.png)
+![SNS subscription](./img/Subscription.jpg)
 
 ##
 
-![Subscription Confirmation](er.png)
+![Subscription Confirmation](./img/Subscription_Confirmation.png)
 ---
 
 
@@ -149,19 +149,19 @@ nba_game_day_alerting_system/
 8. Set the cron schedule for when you want updates (e.g., hourly).
 9. Under Targets, select the Lambda function (nba_notifications) and save the rule.
 
-![Eventbridge](er.png)
+![Eventbridge](./img/eventbridge-rule.png)
 
 ---
 
 
-![Eventbridge triggertimes](er.png)
+![Eventbridge triggertimes](./img/trigger-dates.png)
 
 ---
 
 
 ### **First Notification from our service**
 
-![First Notification](er.png)
+![First Notification](./img/first-alert.png)
 
 
 ---
